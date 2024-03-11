@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(https://img.freepik.com/vetores-premium/estampa-fofa-de-coracoes-coloridos_405506-167.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+
+button {
+    height: 40px;
+    padding: 13px;
+    margin: 13px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px #888888;
+    background-color: #ff69b4;
+    color: #fff;
+}
+
+input {
+    height: 40px;
+    margin: auto;
+    border-radius: 20px;
+    display: block;
+    padding: 13px;
+    box-shadow: 3px 3px 5px #888888;
+    table-layout: fixed;
+}
+
+.tabuada-container {
+    
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#tabuada table {
+    border-collapse: collapse;
+    width: 70%;
+    
+    border-radius: 20px;
+}
+
+table, th, td {
+    border: none;
+    border-radius: 20px;
+}
+
+th, td {
+    padding: 3px 30px;
+    text-align: left;
+    background-color: #ffb6c196;
+}
